@@ -22,13 +22,13 @@ var third ={
 
 
 function cc(data){
-var title=data.title;
+var t=data.title;
 var content=data.content;
 var common= {
     <html>
         <head>
             <title>
-                ${title}
+                ${t}
             </title>
         </head>
         <body>

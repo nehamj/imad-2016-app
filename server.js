@@ -24,22 +24,22 @@ var third ={
 function cc(data){
    var t=data.title;
    var content=data.content;
-   var common ={
-   <html>
-        <head>
-            <title>
-                ${t}
-            </title>
-        </head>
-        <body>
-            <div>
-                ${content}
-            </div>
-        </body
-    </html>    
-    return cc
+   var common = 
+    '<html>'
+        '<head>'
+            '<title>'
+                '${t}'
+            '</title>'
+        '</head>'
+        '<body>'
+            '<div>'
+               '${content}'
+            '</div>'
+        '</body>'
+    '</html>'
+    return cc;
     
-    }
+    
 }
 
 app.get('/a1', function (req, res) {

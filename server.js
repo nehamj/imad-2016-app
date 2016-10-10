@@ -5,6 +5,10 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+app.get('/', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+});
+
 
 var second ={
     title:'second',
@@ -35,10 +39,6 @@ var common= {
     </html>    
 }
 };
-
-app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
-});
 
 app.get('/a1', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'a1.html'));

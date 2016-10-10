@@ -22,21 +22,21 @@ var third ={
 
 
 function cc(data){
-   var t=data.title;
-   var content=data.content;
-   var common = 
-    '<html>'
-        '<head>'
-            '<title>'
-                '${t}'
-            '</title>'
-        '</head>'
-        '<body>'
-            '<div>'
-               '${content}'
-            '</div>'
-        '</body>'
-    '</html>';
+   var t = data.title;
+   var content = data.content;
+   var common = `
+    <html>
+        <head>
+            <title>
+                ${t}
+            </title>
+        </head>
+        <body>
+            <div>
+               ${content}
+            </div>
+        </body>
+    </html> `;
     return common;
     
     

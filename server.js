@@ -8,12 +8,12 @@ app.use(morgan('combined'));
 
 var second ={
     title:'second'
-    content '<h3> hey guys.this is my second web page </h3>'
+    content:"<p> hey guys.this is my second web page </p>"
 };
 
 var third ={
-    title:'thirdd'
-    content '<h3> hey guys.this is my third web page </h3>'
+    title:'third'
+    content "<h3> hey guys.this is my third web page </h3>"
 };
 
 

@@ -24,7 +24,7 @@ var third ={
 function cc(data){
    var t=data.title;
    var content=data.content;
-   var common ="
+   var common ={
    <html>
         <head>
             <title>
@@ -37,8 +37,9 @@ function cc(data){
             </div>
         </body
     </html>    
-    ";
-
+    return cc
+    
+    }
 }
 
 app.get('/a1', function (req, res) {

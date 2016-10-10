@@ -28,12 +28,12 @@ var common= {
     <html>
         <head>
             <title>
-                &{t}
+                ${t}
             </title>
         </head>
         <body>
             <div>
-                &{content}
+                ${content}
             </div>
         </body
     </html>    

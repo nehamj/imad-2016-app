@@ -50,8 +50,8 @@ app.get('/a2', function (req, res) {
   res.send(cc(second));
 });
 
-app.get('/a3', function (req, res) {
-  res.send(cc(third));
+app.get('/ui/main.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
 
 app.get('/ui/style.css', function (req, res) {

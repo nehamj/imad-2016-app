@@ -5,6 +5,37 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+
+var second ={
+    title:'second'
+    content '<h3> hey guys.this is my second web page </h3>'
+};
+
+var third ={
+    title:'thirdd'
+    content '<h3> hey guys.this is my third web page </h3>'
+};
+
+
+function cc(data){
+var title=data.title
+var content=data.content
+var common= {
+    <html>
+        <head>
+            <title>
+                ${title}
+            </title>
+        </head>
+        <body>
+            <div>
+                ${content}
+            </div>
+        </body
+    </html>    
+}
+};
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
@@ -14,11 +45,11 @@ app.get('/a1', function (req, res) {
 });
 
 app.get('a2', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+  res.send(cc(second));
 });
 
 app.get('a3', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+  res.send(cc(third));
 });
 
 app.get('/ui/style.css', function (req, res) {

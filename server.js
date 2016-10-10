@@ -7,19 +7,19 @@ app.use(morgan('combined'));
 
 
 var second ={
-    title:'second'
+    title:'second',
     content:"<p> hey guys.this is my second web page </p>"
 };
 
 var third ={
-    title:'third'
-    content "<h3> hey guys.this is my third web page </h3>"
+    title:'third',
+    content:"<h3> hey guys.this is my third web page </h3>"
 };
 
 
 function cc(data){
-var title=data.title
-var content=data.content
+var title=data.title;
+var content=data.content;
 var common= {
     <html>
         <head>

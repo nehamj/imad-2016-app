@@ -36,7 +36,7 @@ function cc(data){
                '${content}'
             '</div>'
         '</body>'
-    '</html>'
+    '</html>';
     return common;
     
     

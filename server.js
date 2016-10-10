@@ -37,7 +37,7 @@ function cc(data){
             '</div>'
         '</body>'
     '</html>'
-    return cc;
+    return common;
     
     
 }

@@ -22,10 +22,10 @@ var third ={
 
 
 function cc(data){
-var t=data.title;
-var content=data.content;
-var common= {
-    <html>
+   var t=data.title;
+   var content=data.content;
+   var common ="
+   <html>
         <head>
             <title>
                 ${t}
@@ -37,8 +37,9 @@ var common= {
             </div>
         </body
     </html>    
+    ";
+
 }
-};
 
 app.get('/a1', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'a1.html'));

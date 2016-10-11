@@ -5,7 +5,7 @@ e.innerHTML="Web Application-1";
 var im=document.getElementById('img');
 var moveright=function(){
     marginRight=marginRight+10;
-    img.style.marginRight=marginRight+"px";
+    im.style.marginRight=marginRight+"px";
 };
 im.onclick=function(){
   var interval=setInterval(moveRight,20);

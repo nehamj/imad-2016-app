@@ -4,7 +4,8 @@ e.innerHTML="Web Application-1";
 
 var im=document.getElementById('img');
 var moveright=function(){
-    img.style.marginLeft="30px";
+    marginLeft=marginLeft+10;
+    img.style.marginLeft=marginLeft+"px";
 };
 im.onclick=function(){
   var interval=setInterval(moveright,20);

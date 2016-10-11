@@ -11,7 +11,7 @@ var moveright=function(){
 };
 im.onclick= function(){
     p++;
-  var interval=setInterval(moveright,20);
+  var interval=setInterval(moveright);
   if(p==6){
       clearInterval(interval);
   }

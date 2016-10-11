@@ -4,5 +4,5 @@ e.innerHTML="Web Application-1";
 
 var im=document.getElementById('img');
 im.onclick=function(){
-    im.style.margin="50px";
+    im.style.marginright="50px";
 };

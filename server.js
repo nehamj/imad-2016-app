@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-
+var c=0;
 var second ={
     title:'second',
     content:"<p> hey guys.this is my second web page </p>"

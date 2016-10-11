@@ -1,4 +1,4 @@
 console.log('Loaded!');
-var e=document.getElementbyId('mn');
+var e=document.getElementById('mn');
 e.innerHTML="Web Application-1";
 

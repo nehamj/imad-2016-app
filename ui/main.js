@@ -9,10 +9,10 @@ var moveright=function(){
    m=m+10;    
    im.style.marginRight=m+"px";
 };
-im.onclick=function(){
+im.onclick= function(){
     p++;
   var interval=setInterval(moveright,20);
   if(p==6){
-      clearinterval();
+      clearInterval();
   }
 };

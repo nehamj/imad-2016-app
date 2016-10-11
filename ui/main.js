@@ -4,9 +4,9 @@ e.innerHTML="Web Application-1";
 
 var im=document.getElementById('img');
 var moveright=function(){
-    marginLeft=marginLeft+10;
-    img.style.marginLeft=marginLeft+"px";
+    marginRight=marginRight+10;
+    img.style.marginRight=marginRight+"px";
 };
 im.onclick=function(){
-  var interval=setInterval(moveright,20);
+  var interval=setInterval(moveRight,20);
 };

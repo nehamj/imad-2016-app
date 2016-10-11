@@ -56,7 +56,7 @@ app.get('/ui/main.js', function (req, res) {
 
 app.get('/counter', function (req, res) {
   c++;
-  res.send(c.tostring());
+  res.send(c.toString());
 });
 
 app.get('/ui/style.css', function (req, res) {

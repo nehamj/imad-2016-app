@@ -12,7 +12,7 @@ var moveright=function(){
 im.onclick= function(){
     p++;
   if(p==6){
-      clearInterval();
+      clearInterval(interval);
   }
   var interval=setInterval(moveright,20);
 };
